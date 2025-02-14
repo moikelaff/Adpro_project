@@ -1,14 +1,11 @@
 package id.ac.ui.cs.advprog.eshop.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter
 public class Product {
-    private Long id;
-    private String name;
-    private int quantity;
+    private String productId;
+    private String productName;
+    private int productQuantity;
 }
